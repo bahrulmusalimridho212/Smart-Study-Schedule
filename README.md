@@ -1,4 +1,4 @@
-Smart Study Schedule
+# Smart Study Schedule
 Kelompok 3 
 1. ⭐ Muhamad Fahri al Basith (2617051010)
 2. Andini Tria Efendi (2617051001)
