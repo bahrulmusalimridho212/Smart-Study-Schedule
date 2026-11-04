@@ -7,8 +7,10 @@ Kelompok 3
 5. Andiska Farel Adiwangsa (26170510321)
 6. Sevinna Vierlyani (2617051034)
    
-Tema Project:  Smart Study Schedule
- LATAR BELAKANG:
+Tema Project: Sistem Manajemen Tugas Kuliah
+Nama Project: Smart Study Schedule
+
+LATAR BELAKANG:
 Kehidupan di kampus meuntut mahasiswa memiliki kemampuan mengatur waktu dengan baik agar bisa seimbang antara jadwal perkuliahan, mengerjakan tugas, dan persiapan ujian. Mahasiswa sering kali mengalami kesulitan karena jadwal yang terlalu banyak dan lupa memenuhi tenggat waktu akibat masih menggunakan cara mencatat secara manual yang tidak teratur.
 Sehingga, kondisi ini menyebabkan penundaan tugas dan menurunkan hasil belajar akademik. Oleh karena itu, dibutuhkan sebuah program sederhana berbasis konsol (command line interface) yang bisa membantu mahasiswa dalam mencatat jadwal kuliah serta mengurus daftar tugas harian dengan cara yang teratur, jelas, dan mudah digunakan.
 
