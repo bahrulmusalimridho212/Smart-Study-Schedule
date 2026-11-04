@@ -8,6 +8,7 @@ Kelompok 3
 6. Sevinna Vierlyani (2617051034)
    
 Tema Project: Sistem Manajemen Tugas Kuliah
+
 Nama Project: Smart Study Schedule
 
 LATAR BELAKANG:
