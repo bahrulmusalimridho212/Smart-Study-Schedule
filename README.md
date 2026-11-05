@@ -22,7 +22,8 @@ Nama Project: Smart Study Schedule
 1.LATAR BELAKANG & STUDI KASUS:
 Sebagai seorang mahasiswa, rutinitas belajar sangat sibuk mulai dari mencatat jadwal perkuliahan, mengawasi tugas-tugas akademik, sampai mengatur waktu pengerjaan tugas hingga tenggat waktunya. Banyak mahasiswa mengalami kesulitan dalam menentukan tugas mana yang harus dikerjakan lebih dulu atau lupa bagaimana kondisi pekerjaan tugasnya. Karena itu, tim kami membuat program berbasis konsol menggunakan bahasa C++ untuk membantu mengotomatisasi proses pencatatan tugas serta menentukan prioritas tugas secara sistematis.
 
-2. SOLUSI YANG DIBERIKAN
+
+2. SOLUSI YANG DIBERIKAN:
 Program "Smart Study Schedule" yang kami buat menawarkan beberapa solusi berikut:
 •Fitur penambahan data tugas baru yang sudah lengkap dengan nama mata kuliah dan sisa hari deadline.
 •Sistem penentuan prioritas otomatis berdasarkan sisa hari dengan kategori Deadline Hari Ini, Tinggi, Sedang, dan Rendah.
