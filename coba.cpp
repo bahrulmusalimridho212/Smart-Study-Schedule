@@ -7,7 +7,7 @@ const int MAX = 100;
 string mataKuliah[MAX],namaTugas[MAX];
 int deadline[MAX];
 bool status[MAX];
-int jumlah[MAX];
+int jumlah = 0;
 
 //Function menentukan prioritas
 string tentukanPrioritas(int hari){
@@ -25,12 +25,12 @@ void tambahTugas() {
     }
 
     cout << "Nama mata kuliah: ";
-    getline (cin, mataKuliah[jumlah]);
+    getline (cin >> ws, mataKuliah[jumlah]);
 
     cout << "Nama tugas: ";
     getline (cin, namaTugas[jumlah]);
 
-    cout << "Deadline (berapa hari lagi, gunakan angka negatif jika terlambat): ";
+    cout << "Deadline (berapa hari lagi): ";
     cin >> deadline[jumlah];
 
     status[jumlah] = false;
@@ -80,7 +80,7 @@ void selesaikanTugas() {
     } else {
         cout << "Nomor tugas tidak ditemukan.\n";
     }
-
+}
     // Function menampilkan mata kuliah
 void tampilkanMataKuliah() {
     if (jumlah == 0) {
@@ -137,6 +137,4 @@ int main() {
     } while (pilihan != 5);
 
     return 0;
-}
-
 }
