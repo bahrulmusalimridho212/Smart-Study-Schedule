@@ -11,9 +11,9 @@ int jumlah[MAX];
 
 //Function menentukan prioritas
 string tentukanPrioritas(int hari){
-    if (hari ==0)return "DEADLINE HARIINI";
+    if (hari == 0)return "DEADLINE HARI INI";
     else if (hari <= 2) return "TINGGI";
-    else if (hari <= 5) return "SEDENG";
+    else if (hari <= 5) return "SEDANG";
     else return "RENDAH";
 }
 
@@ -37,4 +37,26 @@ void tambahTugas() {
     jumlah++;
 
     cout << "Tugas berhasil ditambahkan!\n";
+}
+
+// Function menampilkan semua tugas
+void tampilkanTugas() {
+    if (jumlah == 0) {
+        cout << "Belum ada tugas.\n";
+        return;
+    }
+
+    for (int i = 0; i < jumlah; i++) {
+        cout << "\nTugas ke-" << i + 1 << endl;
+        cout << "Mata kuliah: " << mataKuliah[i] << endl;
+        cout << "Nama tugas : " << namaTugas[i] << endl;
+        cout << "Deadline   : " << deadline[i] << " hari lagi\n";
+        cout << "Status     : "
+             << (status[i] ? "SELESAI" : "BELUM SELESAI") << endl;
+
+        if (!status[i]) {
+            cout << "Prioritas  : "
+                 << tentukanPrioritas(deadline[i]) << endl;
+        }
+    }
 }
