@@ -10,13 +10,12 @@ Ketua	        : Muhamad Fahri al Basith (2617051010)
 Anggota       :
 1. Andini Tria Efendi        (2617051001)
 2. Suci Widianti             (2617051013)
-3. Andiska Farel Adiwangsa   (26170510321)
+3. Andiska Farel Adiwangsa   (2617051032)
 4. Sevinna Vierlyani         (2617051034)
 5. Bahrul Musalim Ridho      (2617051038)
 ===============================================================================
 
 Tema Project: Sistem Manajemen Tugas Kuliah
-
 Nama Project: Smart Study Schedule
 
 1.LATAR BELAKANG & STUDI KASUS:
