@@ -1,10 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main(){
-    cout << "Hello world!" << endl;
-    cout << "Nama saya Bahrul" << endl;
-    cout << "Nama saya Andini" << endl;
-    cout << "Nama saya Sevinna" << endl;
-    return 0;
+const int MAX = 100;
+
+string mataKuliah[MAX],namaTugas[MAX];
+int deadline[MAX];
+bool status[MAX];
+int jumlah[MAX];
+
+//Function menentukan prioritas
+string tentukanPrioritas(int hari){
+    if (hari ==0)return "DEADLINE HARIINI";
+    else if (hari <= 2) return "TINGGI";
+    else if (hari <= 5) return "SEDENG";
+    else return "RENDAH";
 }
