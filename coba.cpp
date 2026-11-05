@@ -80,4 +80,33 @@ void selesaikanTugas() {
     } else {
         cout << "Nomor tugas tidak ditemukan.\n";
     }
+
+    // Function menampilkan mata kuliah
+void tampilkanMataKuliah() {
+    if (jumlah == 0) {
+        cout << "Belum ada mata kuliah.\n";
+        return;
+    }
+
+    cout << "\n=== DAFTAR MATA KULIAH ===\n";
+
+    for (int i = 0; i < jumlah; i++) {
+        cout << i + 1 << ". " << mataKuliah[i] << endl;
+    }
+}
+
+int main() {
+    int pilihan;
+
+    do {
+        
+        cout << "\n=== SMART STUDY SCHEDULE ===\n";
+        cout << "1. Tambah Tugas\n";
+        cout << "2. Tampilkan Semua Tugas\n";
+        cout << "3. Selesaikan Tugas\n";
+        cout << "4. Daftar Mata Kuliah\n";
+        cout << "5. Keluar\n";
+        cout << "Pilih menu: ";
+        cin >> pilihan;
+
 }
