@@ -109,4 +109,34 @@ int main() {
         cout << "Pilih menu: ";
         cin >> pilihan;
 
+        switch (pilihan) {
+            case 1:
+                tambahTugas();
+                break;
+
+            case 2:
+                tampilkanTugas();
+                break;
+
+            case 3:
+                selesaikanTugas();
+                break;
+
+            case 4:
+                tampilkanMataKuliah();
+                break;
+
+            case 5:
+                cout << "Terima kasih!\n";
+                break;
+
+            default:
+                cout << "Pilihan tidak valid!\n";
+        }
+
+    } while (pilihan != 5);
+
+    return 0;
+}
+
 }
