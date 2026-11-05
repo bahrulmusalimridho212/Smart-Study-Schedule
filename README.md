@@ -38,3 +38,10 @@ Fungsi. Program dibagi menjadi beberapa fungsi supaya lebih rapi dan mudah dibac
 -selesaikanTugas() mengubah status sebuah tugas menjadi selesai berdasarkan nomor indeksnya.
 -tampilkanMataKuliah() menampilkan rekap daftar mata kuliah.
 Perulangan dan percabangan. Menu utama dijalankan dengan do-while, sehingga program terus berjalan dan bisa dipakai berulang kali sampai pengguna memilih Keluar (pilihan 5). Pilihan menu diproses dengan switch-case, sedangkan if-else dipakai untuk pengecekan kondisi di dalam fungsi, misalnya validasi input dan penentuan prioritas.
+
+4. GAMBARAN ALUR PROGRAM (MENU UTAMA)
+- Tambah Tugas (Masukkan nama mata kuliah, tugas, dan tenggat waktu).
+- Tampilkan semua tugas (lihat detail tugas, status, dan prioritasnya).
+- Selesaikan Tugas (Mengubah status tugas menjadi selesai)
+- Daftar Mata Kuliah (Melihat daftar mata kuliah yang telah disimpan)
+- Keluar (Menutup aplikasi)
