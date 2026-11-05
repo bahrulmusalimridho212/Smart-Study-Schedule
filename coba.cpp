@@ -60,3 +60,24 @@ void tampilkanTugas() {
         }
     }
 }
+
+// Function menyelesaikan tugas
+void selesaikanTugas() {
+    if (jumlah == 0) {
+        cout << "Belum ada tugas.\n";
+        return;
+    }
+
+    tampilkanTugas();
+
+    int nomor;
+    cout << "\nNomor tugas yang selesai: ";
+    cin >> nomor;
+
+    if (nomor >= 1 && nomor <= jumlah) {
+        status[nomor - 1] = true;
+        cout << "Tugas berhasil diselesaikan!\n";
+    } else {
+        cout << "Nomor tugas tidak ditemukan.\n";
+    }
+}
