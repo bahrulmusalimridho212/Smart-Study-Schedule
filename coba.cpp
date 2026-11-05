@@ -16,3 +16,25 @@ string tentukanPrioritas(int hari){
     else if (hari <= 5) return "SEDENG";
     else return "RENDAH";
 }
+
+// Function menambah tugas
+void tambahTugas() {
+    if (jumlah >= MAX) {
+        cout << "Kapasitas tugas penuh! \n";
+        return;
+    }
+
+    cout << "Nama mata kuliah: ";
+    getline (cin, mataKuliah[jumlah]);
+
+    cout << "Nama tugas: ";
+    getline (cin, namaTugas[jumlah]);
+
+    cout << "Deadline (berapa hari lagi, gunakan angka negatif jika terlambat): ";
+    cin >> deadline[jumlah];
+
+    status[jumlah] = false;
+    jumlah++;
+
+    cout << "Tugas berhasil ditambahkan!\n";
+}
